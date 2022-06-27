@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample test" duration-ms="20418" started-at="2022-06-27T11:07:13Z" finished-at="2022-06-27T11:07:34Z">
+    <groups>
+    </groups>
+    <test name="LoginSuccessfull--&gt;1" duration-ms="20418" started-at="2022-06-27T11:07:13Z" finished-at="2022-06-27T11:07:34Z">
+      <class name="com.learningautomation.testcases.LoginSuccessfull">
+        <test-method status="PASS" signature="SetupSuite()[pri:0, instance:com.learningautomation.testcases.LoginSuccessfull@1a968a59]" name="SetupSuite" is-config="true" duration-ms="148" started-at="2022-06-27T16:37:13Z" finished-at="2022-06-27T16:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupSuite -->
+        <test-method status="PASS" signature="startApplication()[pri:0, instance:com.learningautomation.testcases.LoginSuccessfull@1a968a59]" name="startApplication" is-config="true" duration-ms="6881" started-at="2022-06-27T16:37:13Z" finished-at="2022-06-27T16:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="LoginSuccessfull()[pri:0, instance:com.learningautomation.testcases.LoginSuccessfull@1a968a59]" name="LoginSuccessfull" duration-ms="13204" started-at="2022-06-27T16:37:20Z" finished-at="2022-06-27T16:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccessfull -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learningautomation.testcases.LoginSuccessfull@1a968a59]" name="tearDown" is-config="true" duration-ms="321" started-at="2022-06-27T16:37:33Z" finished-at="2022-06-27T16:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learningautomation.testcases.LoginSuccessfull -->
+    </test> <!-- LoginSuccessfull->1 -->
+  </suite> <!-- Sample test -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="0" verbose="3" name="Failed suite [Sample test]" allow-return-values="true">
+  <test name="LoginSuccessfull--&gt;1(failed)">
+    <classes>
+      <class name="com.learningautomation.testcases.LoginSuccessfull">
+        <methods>
+          <include name="SetupSuite"/>
+          <include name="startApplication"/>
+          <include name="tearDown"/>
+          <include name="LoginSuccessfull"/>
+        </methods>
+      </class> <!-- com.learningautomation.testcases.LoginSuccessfull -->
+    </classes>
+  </test> <!-- LoginSuccessfull->1(failed) -->
+</suite> <!-- Failed suite [Sample test] -->

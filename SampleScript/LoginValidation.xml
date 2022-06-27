@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sample test" verbose="3" parallel="false"
+	thread-count="0" allow-return-values="true">
+
+
+	<test name="LoginSuccessfull-->1" preserveorder="true">
+
+		<classes>
+			<class name="com.learningautomation.testcases.LoginSuccessfull" />
+		</classes>
+	</test>
+
+	
+</suite>
