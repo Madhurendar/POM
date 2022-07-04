@@ -43,10 +43,11 @@ public class BrowserFactory {
 		
 		}
 		
+		
+		ldriver.get(URL);
 		ldriver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
 		ldriver.manage().timeouts().implicitlyWait(30,  TimeUnit.SECONDS);
 		ldriver.manage().window().maximize();
-		ldriver.get(URL);
 		
 		return ldriver;
 		

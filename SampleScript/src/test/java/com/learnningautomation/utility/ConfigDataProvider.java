@@ -42,5 +42,11 @@ public class ConfigDataProvider {
 	   
 	   return pro.getProperty("URL");
 }
+   
+   public String getRestURL() {
+	   
+	   return pro.getProperty("RestURL");
+	   
 }
 
+}

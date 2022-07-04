@@ -1,6 +1,7 @@
 package com.learningautomation.pages;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,12 +38,16 @@ public class Login {
 		
 	}
 
-   public void Submit() 
+   public void Submit() throws InterruptedException 
    {
 	   WebDriverWait wait = new WebDriverWait(driver, 10);
 	   wait.until(ExpectedConditions.visibilityOf(Login));
 	   
 	   Login.click();
+	   
+	   Thread.sleep(20000);
+	   
+	   driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 	
 }
 	

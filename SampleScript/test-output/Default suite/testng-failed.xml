@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.learningautomation.pages.LoginSuccessfull">
+      <class name="com.learningautomation.testcases.LoginSuccessfull">
         <methods>
-          <include name="LoginSuccessfull"/>
-          <include name="tearDown"/>
+          <include name="SetupSuite"/>
           <include name="startApplication"/>
+          <include name="tearDown"/>
+          <include name="LoginSuccessfull"/>
         </methods>
-      </class> <!-- com.learningautomation.pages.LoginSuccessfull -->
+      </class> <!-- com.learningautomation.testcases.LoginSuccessfull -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
