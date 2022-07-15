@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 30 16:26:37 IST 2022</td>
+<td>Started on:</td><td>Mon Jul 04 13:58:44 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>44 seconds (44899 ms)</td>
+<tr><td>Total time:</td><td>73 seconds (73254 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,8 +76,11 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.learningautomation.testcases.LoginSuccessfull.LoginSuccessfull()'><b>LoginSuccessfull</b><br>Test class: com.learningautomation.testcases.LoginSuccessfull</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.learnningautomation.utility.GetBrokenlinks.getBrokenlinkUseCase(GetBrokenlinks.java:33)
+<td><div><pre>java.net.MalformedURLException: unknown protocol: javascript
+	at java.net.URL.&lt;init&gt;(URL.java:600)
+	at java.net.URL.&lt;init&gt;(URL.java:490)
+	at java.net.URL.&lt;init&gt;(URL.java:439)
+	at com.learnningautomation.utility.GetBrokenlinks.getBrokenlinkUseCase(GetBrokenlinks.java:43)
 	at com.learningautomation.testcases.getBrokenlinksTest.getBrokenURL(getBrokenlinksTest.java:21)
 	at com.learningautomation.testcases.LoginSuccessfull.LoginSuccessfull(LoginSuccessfull.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -102,12 +105,15 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1144897090", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1144897090'><pre>java.lang.NullPointerException
-	at com.learnningautomation.utility.GetBrokenlinks.getBrokenlinkUseCase(GetBrokenlinks.java:33)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1333529571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1333529571'><pre>java.net.MalformedURLException: unknown protocol: javascript
+	at java.net.URL.&lt;init&gt;(URL.java:600)
+	at java.net.URL.&lt;init&gt;(URL.java:490)
+	at java.net.URL.&lt;init&gt;(URL.java:439)
+	at com.learnningautomation.utility.GetBrokenlinks.getBrokenlinkUseCase(GetBrokenlinks.java:43)
 	at com.learningautomation.testcases.getBrokenlinksTest.getBrokenURL(getBrokenlinksTest.java:21)
 	at com.learningautomation.testcases.LoginSuccessfull.LoginSuccessfull(LoginSuccessfull.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -132,11 +138,11 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>33</td>
+<td>37</td>
 <td>com.learningautomation.testcases.LoginSuccessfull@553f17c</td></tr>
 </table><p>
 </body>
